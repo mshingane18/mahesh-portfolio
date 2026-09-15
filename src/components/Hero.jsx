@@ -72,7 +72,11 @@ function Hero() {
               <FiArrowDown size={18} />
             </button>
 
-            <a href="/resume.pdf" download className="btn btn-outline btn-lg">
+            <a
+              href={`${import.meta.env.BASE_URL}Mahesh_Shingane_Frontend_Developer_React.pdf`}
+              download
+              className="btn btn-outline btn-lg"
+            >
               <FiDownload size={18} />
               Download Resume
             </a>

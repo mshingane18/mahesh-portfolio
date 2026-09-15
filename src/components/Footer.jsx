@@ -1,4 +1,4 @@
-import { ArrowUp } from "lucide-react";
+import { FiArrowUp } from "react-icons/fi";
 
 function Footer() {
   return (
@@ -17,7 +17,7 @@ function Footer() {
           className="btn btn-circle btn-ghost"
           aria-label="Back to top"
         >
-          <ArrowUp size={18} />
+          <FiArrowUp size={18} />
         </a>
       </div>
 
